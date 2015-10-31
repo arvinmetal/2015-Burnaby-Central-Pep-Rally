@@ -1,0 +1,228 @@
+.nav a {
+  color: #5a5a5a;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.logo {
+  width: 54px;
+  height: 54px;
+  transition: 0.5s ease-in-out;
+}
+
+.jumbotron {
+  background-image:url('fixed2.png');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #EFEFEF;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.neighborhood-guides {
+    background-color: #EFEFEF;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.neighborhood-guides h2 {
+    color: #393C3D;
+    font-size: 24px;
+}
+
+.neighborhood-guides p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+
+
+
+
+/*Costum styling*/
+.no-padding {
+  padding: 0 !important;
+}
+
+.small-padding {
+  padding: 5%;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.header-nav {
+  font-size: 15px !important;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top {
+  top: 0 !important;
+}
+
+.left {
+  left: 0 !important;
+}
+
+.right {
+  right: 0 !important;
+}
+
+.bottom {
+  bottom: 0 !important;
+}
+
+.small-top {
+  top: 16px;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
+
+.font-white {
+  color: #fff;
+}
+
+.font-black {
+  color: #333 !important;
+}
+
+.font-blue {
+  color: #21a1e1;
+}
+
+.font-red {
+  color: #9a2221;
+}
+
+.large-font {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.font-fantasy {
+  font-family: fantasy, arial, sans-serif;
+}
+
+.fade-in {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.col-md-3, .col-md-4 {
+  overflow: hidden;
+}
+
+.team-detail {
+  position: absolute;
+  padding: 2%;
+  width: 94%;
+  height: 96%;
+  top: 100%;
+  right: 3%;
+  z-index: 5;
+  opacity: 0.95;
+  transition: 0.5s ease-in-out;
+}
+
+.soccer {
+  background-color: #108df4;
+}
+.soccer-p:hover .soccer {
+  top: 4%;
+}
+
+.bwc {
+  background-color: rgb(255, 162, 3);
+}
+.bwc-p:hover .bwc {
+  top: 4%;
+}
+
+.volleyball {
+  background-color: rgb(230, 63, 63);
+}
+.volleyball-p:hover .volleyball {
+  top: 4%;
+}
+
+.cc {
+  background-color: rgb(2, 255, 100);
+}
+.cc-p:hover .cc {
+  top: 4%;
+}
+
+.theatre {
+  background-color: rgb(50, 50, 50);
+}
+.theatre-p:hover .theatre {
+  top: 4%;
+}
+
+.team-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 198px;
+}
+
+.info-logo {
+  height: 100px;
+  width: auto;
+}
