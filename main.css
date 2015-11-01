@@ -123,12 +123,20 @@
   top: 16px;
 }
 
+.small-right {
+  right: 16px;
+}
+
 .font-bold {
   font-weight: bold !important;
 }
 
 .font-white {
   color: #fff;
+}
+
+.font-lightgray {
+  color: #999;
 }
 
 .font-black {
